@@ -1,0 +1,22 @@
+@use "../colors" as *;
+@use "../fonts" as *;
+
+header {
+	// height: 70vh;
+	text-align: center;
+	div {
+		padding: 1rem;
+	}
+	.hero-img {
+		width: 100%;
+		display: block;
+	}
+	.backgroundsvg {
+		width: 50vw;
+		height: 100vh;
+		position: absolute;
+		top: 20vh;
+		z-index: -1;
+		// margin: auto;
+	}
+}

@@ -1,0 +1,29 @@
+@use "../colors" as *;
+@use "../fonts" as *;
+
+nav,
+ul {
+	display: flex;
+}
+
+nav {
+	height: 50px;
+	img {
+		display: block;
+		width: 20%;
+		// padding: 20px;
+	}
+	ul {
+		margin: auto 10px auto auto;
+		position: relative;
+		right: 0;
+		li {
+			list-style: none;
+			margin: 10px;
+			transition: 0.9s;
+		}
+		li:hover {
+			border-bottom: 3px solid white;
+		}
+	}
+}
